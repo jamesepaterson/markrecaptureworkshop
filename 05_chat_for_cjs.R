@@ -13,13 +13,6 @@
 ##
 ## ---------------------------
 
-
-# chat for mark-recapture models
-# Author: James E Paterson 
-# Contact: james.earle.paterson@gmail.com
-# Date created: 2020-06-30
-
-
 ## ----loadlibraries---------------------
 # install.packages("R2ucare") # first time only
 library(R2ucare) # For Goodness of fit tests
