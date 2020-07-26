@@ -15,3 +15,4 @@ Contents:
 * 03_introduction_to_CJS.R contains code for introduction to Cormack-Jolly-Seber Models
 * 04_gof_for_cjs.R contains code for goodness-of-fit tests for Cormack-Jolly Seber Models
 * 05_chat_for_cjs.R contains code for estimating variance inflation factor and adjusting model output for Cormack-Jolly-Seber Models
+* 06_js_popan.R contains code for estimating population size using Jolly-Seber Models (POPAN formulation)
