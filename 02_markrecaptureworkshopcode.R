@@ -178,7 +178,7 @@ dipper.cjs.models[[1]] # or dipper.cjs.models[["Phi.dot.p.dot"]] or dipper.cjs.m
 
 # Getting "real" estimates using "predict"
 # First, create new data to predict differences
-newdipper <- data.frame(sex = c("Female", "Male"))
+newdipper <- data.frame(sex = as.factor(c("Female", "Male")))
 
 reals <- predict(dipper.cjs.models[[2]], # NOTE, i'm deliberately calling a model that isn't the "top-performing
                  # model" in order to demonstate the similar detection probabilities between males and females
