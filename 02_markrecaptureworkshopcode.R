@@ -424,17 +424,17 @@ dipper.js.models[[1]]
 dipper.js.models[[5]]
 
 # Predict (real) values using top model
-dipper.js.predicted <- predict(dipper.js.models[[1]], newdipper, se = TRUE)
+dipper.js.predicted <- predict(dipper.js.models[[1]], ddl = dipper.js.ddl, se = TRUE)
 
 # To examine how pent sums to 1 for each group, look at model 3 where pent(~sex)
-dipper.js.predicted.3 <- predict(dipper.js.models[[3]], newdipper, se = TRUE)
+dipper.js.predicted.3 <- predict(dipper.js.models[[3]], ddl = dipper.js.ddl, se = TRUE)
 
 # Predict with pent.time (model 5)
-dipper.js.predicted.5 <- predict(dipper.js.models[[5]], newdipper, se = TRUE)
+dipper.js.predicted.5 <- predict(dipper.js.models[[5]], ddl = dipper.js.ddl, se = TRUE)
 dipper.js.predicted.5
 
 # sex difference in nsuper
-dipper.js.predicted.2 <-  predict(dipper.js.models[[2]], newdipper, se = TRUE)
+dipper.js.predicted.2 <-  predict(dipper.js.models[[2]], ddl = dipper.js.ddl, se = TRUE)
 
 # How do we get population size at each capture event?
 # Abundance (N) is derived from the estimated parameters
