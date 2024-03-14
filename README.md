@@ -8,6 +8,7 @@ This workshop covers:
 * Fitting Cormack-Jolly-Seber models to estimate survival and detection probability
 * Testing the goodness-of-fit of Cormack-Jolly-Seber models
 * Fitting Jolly-Seber models to estimate population size
+* Fitting known-fate mark-recapture models
 
 Contents:
 * 01_installingmarkrecappackages.R checks if required packages are installled. Installs them if they are not.
@@ -16,3 +17,4 @@ Contents:
 * 04_gof_for_cjs.R contains code for goodness-of-fit tests for Cormack-Jolly Seber Models
 * 05_chat_for_cjs.R contains code for estimating variance inflation factor and adjusting model output for Cormack-Jolly-Seber Models
 * 06_js_popan.R contains code for estimating population size using Jolly-Seber Models (POPAN formulation)
+* 07_knownfate.R contains code for fitting known-fate mark-recapture models with RMark
