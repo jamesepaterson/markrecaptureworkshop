@@ -82,5 +82,5 @@ ggplot(data = predicted_S, aes(x = condix, y = real)) +
 
 # Last step: clean temporary and unused files associated with RMark and MARK in working directory
 # These are written whenever fitting models in MARK via RMark.
-# Includes .inp, .out, .res, and .vsv
+# Includes .inp, .out, .res, and .vcv
 RMark::cleanup(ask = FALSE)
