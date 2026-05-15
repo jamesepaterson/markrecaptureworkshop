@@ -18,3 +18,7 @@ Contents:
 * 05_chat_for_cjs.R contains code for estimating variance inflation factor and adjusting model output for Cormack-Jolly-Seber Models
 * 06_js_popan.R contains code for estimating population size using Jolly-Seber Models (POPAN formulation)
 * 07_knownfate.R contains code for fitting known-fate mark-recapture models with RMark
+
+# Citing this workshop?
+The code and data for this workshop is archived on Zenodo and has a DOI you can cite: 
+DOI: 10.5281/zenodo.20195082
